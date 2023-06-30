@@ -1,4 +1,4 @@
-alert("welcome")
+// alert("welcome")
 const password = document.getElementById("password")
 const message = document.getElementsByTagName("b")
 
