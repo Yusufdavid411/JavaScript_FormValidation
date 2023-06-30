@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: url(img/Bgimage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    margin: 10px 10px 20px;
+}
+
+form {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    width: 50%;
+    height: 70%;
+}
+
+.content label {
+    padding: 5px 7px;
+    font-size: 140%;
+    color: aliceblue;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.input {
+    background:rgba(0, 0, 0, 0);
+    color: aliceblue;
+    width: 100%;
+    height: 30px;
+    border: rgba(0, 0, 0, 0);
+    border-bottom: solid 2px aliceblue;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 0 0 0 5px;
+
+}
+/* genders............... */
+
+.genders label {
+    font-size: 100%;
+    border-radius: 5px;
+
+}
+
+button {
+    width: 40%;
+    height: 7.5%;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-size: 100%;
+    margin-top: 20px;
+}
+
+p {
+    color: aliceblue;
+    font-size: 130%;
+    margin: 10px 0 0 ;
+    padding: 0 0 0 5px;
+}
+
+i {
+    color: rgb(158, 32, 32);
+}
+
+.gender {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="content">
+        <form target="_self" method="get">
+
+            <h2>SignUp</h2>
+
+            <label for="fname">FirstName <i>*</i></label> <br>
+            <input type="text" name="fname" class="input" required> <br>
+
+            <label for="lname">LastName <i>*</i></label> <br>
+            <input type="text" name="lname" class="input" required> <br>
+
+            <label for="email">Email <i>*</i></label> <br>
+            <input type="email" name="email" class="input" id="email" required> <br>
+            
+            <label for="password">Password <i>*</i></label> <br>
+            <input type="password" name="password" class="input" id="password" required> <br>
+
+            <div class="genders">
+                <p>Gender <i>*</i></p> <br>
+
+                <input type="radio" class="gender" name="gender" id=""><label for="">Male</label> <br>
+                <input type="radio" class="gender" name="gender" id=""><label for="">Female</label>
+            </div>
+            
+            <button type="submit" onclick="alert('thats great')">Submit</button>
+
+            <b></b>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
