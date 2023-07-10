@@ -4,10 +4,12 @@ let password = document.getElementById('password');
 
 function myFunction() {
   const pass = password.value;
+  message.style.fontSize='.8rem';
+  message.style.color='red';
 
   if(pass.length >= 6){
     message.innerHTML='Good Job';
-    message.style.color='red';
+    
   }else{
     message.innerHTML= 'password';
   }
