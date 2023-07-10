@@ -1,16 +1,15 @@
-// alert("welcome")
-const password = document.getElementById("password")
-const message = document.getElementsByTagName("b")
+let message = document.getElementById("output");
+let password = document.getElementById('password');
 
 
-const paswd = password.value
+function myFunction() {
+  const pass = password.value;
 
-if (paswd.length >= 8){
-    message
+  if(pass.length >= 6){
+    message.innerHTML='Good Job';
+    message.style.color='red';
+  }else{
+    message.innerHTML= 'password';
+  }
+  
 }
-
-
-
-
-
-

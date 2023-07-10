@@ -4,43 +4,43 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form_Validation</title>
 </head>
 <body>
 
     <div class="content">
-        <form target="_self" method="get">
+
+        <form >
 
             <h2>SignUp</h2>
 
-            <label for="fname">FirstName <i>*</i></label> <br>
-            <input type="text" name="fname" class="input" required> <br>
+            <label for="fname">FirstName</label> <br>
+            <input type="text" name="fname" class="input"> <br>
 
-            <label for="lname">LastName <i>*</i></label> <br>
-            <input type="text" name="lname" class="input" required> <br>
+            <label for="lname">LastName</label> <br>
+            <input type="text" name="lname" class="input"> <br>
 
-            <label for="email">Email <i>*</i></label> <br>
-            <input type="email" name="email" class="input" id="email" required> <br>
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" class="input" id="email"> <br>
             
-            <label for="password">Password <i>*</i></label> <br>
-            <input type="password" name="password" class="input" id="password" required> <br>
+            <label for="password">Password<i>*</i></label> <br>
+            <input type="type" name="password" class="input" id="password"> <br>
 
-            <label for="cpassword">Confirm Password <i>*</i></label> <br>
-            <input type="cpassword" name="cpassword" class="input" id="cpassword" required> <br>
+            <label for="cpassword">Confirm Password<i>*</i></label> <br>
+            <input type="type" name="cpassword" class="input" id="cpassword"> <br>
 
             <div class="genders">
-                <p>Gender <i>*</i></p> <br>
+                <p>Gender</p> <br>
 
-                <input type="radio" class="gender" name="gender" id=""><label for="">Male</label> <br>
-                <input type="radio" class="gender" name="gender" id=""><label for="">Female</label>
+                <input type="radio" class="gender" name="gender" id="Male"><label for="">Male</label> <br> 
+                <input type="radio" class="gender" name="gender" id="Female"><label for="">Female</label>
             </div>
-            
-            <button type="submit" onclick="" >Submit</button>
 
-            <b></b>
+            <p id="output"></p>
+
+            <button type="button" onclick="myFunction()">Submit</button>
         </form>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
