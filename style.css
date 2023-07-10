@@ -24,14 +24,14 @@ h2 {
 form {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    max-width: 500px;
+    max-width: 300px;
     width: 80%;
     height: auto;
 }
 
 .content label {
     padding: 5px 7px;
-    font-size: 140%;
+    font-size: 1.2rem;
     color: aliceblue;
     margin: 10px 0;
     border-radius: 10px;
@@ -46,7 +46,7 @@ form {
     outline: none;
     margin-bottom: 10px;
     padding: 0 0 0 5px;
-
+    font-size: .8rem;
 }
 /* genders............... */
 
