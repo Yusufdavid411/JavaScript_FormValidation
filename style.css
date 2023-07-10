@@ -28,6 +28,7 @@ form {
     width: 80%;
     height: auto;
     border-radius: 8px;
+    position: static;
 }
 
 .content label {
