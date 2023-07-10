@@ -67,6 +67,7 @@ button {
     background: green;
     color: aliceblue;
     border: none;
+    text-decoration: none;
 }
 
 p {
