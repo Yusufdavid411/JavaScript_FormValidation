@@ -67,6 +67,7 @@ button {
     background: green;
     color: aliceblue;
     border: none;
+    border-style: none;
     text-decoration: none;
 }
 
